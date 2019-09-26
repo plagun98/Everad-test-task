@@ -280,3 +280,272 @@
     padding-top: 10px;
   }
 }
+@media screen and (max-width: 1350px) {
+  #mikocin-info {
+    height: 600px;
+  }
+  .navitem--main img {
+    max-height: 40px;
+  }
+  .navitem--main h6 {
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .navitem--usual {
+    padding-right: 25px;
+  }
+  .navitem--usual img {
+    max-height: 28px;
+  }
+  .navitem--usual h6 {
+    line-height: 14px;
+    font-size: 12px;
+    max-width: 140px;
+  }
+  .navitem--usual .navitem2__text {
+    max-width: 100px;
+  }
+  .mikocin-info__inner-wrapper {
+    height: 600px;
+  }
+  .mikocin-info__inner-wrapper h2 {
+    font-size: 30px !important;
+  }
+  .mikocin-info__inner-wrapper__right {
+    max-width: 250px;
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .mikocin-info__inner-wrapper__right .mobile-header {
+    padding-top: 25px;
+  }
+  .mikocin-info__inner-wrapper__right .mobile-header p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .mikocin-info__inner-wrapper__right .mobile-header img {
+    max-height: 16px;
+    width: auto;
+  }
+  .mikocin-info__inner-wrapper__right h3 {
+    font-size: 14px;
+    line-height: 14px;
+    max-width: 165px;
+    padding-top: 25px;
+  }
+  .mikocin-info__inner-wrapper__right .price {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mikocin-info__inner-wrapper__right .price-old p {
+    color: #999999;
+  }
+  .mikocin-info__inner-wrapper__right .price-old img {
+    max-height: 30px;
+    padding-left: 12px;
+  }
+  .mikocin-info__inner-wrapper__right .price-new p {
+    color: #333333;
+  }
+  .mikocin-info__inner-wrapper__right .price-new img {
+    max-height: 35px;
+  }
+  .mikocin-info__inner-wrapper__right .price__item {
+    width: 30%;
+  }
+  .mikocin-info__inner-wrapper__right .price__item p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .mikocin-info__inner-wrapper__right input {
+    width: 65%;
+    padding: 15px 0;
+    padding-left: 35px;
+    font-size: 12px;
+  }
+  .mikocin-info__inner-wrapper__right .input img {
+    top: 9px;
+    left: 58px;
+    max-height: 15px;
+  }
+  .mikocin-info__inner-wrapper__right .order-button {
+    padding-top: 15px;
+  }
+  .mikocin-info__inner-wrapper__right .order-button img {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    max-width: 65%;
+  }
+  .mikocin-info__inner-wrapper__right .packs-left {
+    padding-top: 10px;
+    max-width: 188px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+  }
+  .mikocin-info__inner-wrapper__right .packs-left span {
+    color: #9dbd39;
+  }
+  .mikocin-info__inner-wrapper__right .mobile__bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 18px;
+  }
+  .mikocin-info__inner-wrapper__right .mobile__bottom p {
+    padding-left: 12px;
+    line-height: 20px;
+    font-size: 10px;
+    text-align: left;
+    color: #666666;
+  }
+  .bottom-line {
+    font-size: 20px !important;
+  }
+  .activities-list__item p {
+    font-size: 12px;
+    padding-top: 12px;
+  }
+  .activities-list__item img {
+    max-height: 40px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #mikocin-info {
+    height: 450px;
+  }
+  .activities-list__item {
+    padding-top: 10px;
+  }
+  .mikocin-info__inner-wrapper {
+    max-width: 50%;
+    height: unset;
+  }
+  .mikocin-info__inner-wrapper h2 {
+    max-width: unset;
+  }
+  .mikocin-info__inner-wrapper__right {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    max-width: unset;
+    -webkit-background-size: cover;
+            background-size: cover;
+  }
+  .mikocin-info__inner-wrapper__right .mobile-header {
+    padding-top: 32px;
+  }
+  .mikocin-info__inner-wrapper__right .mobile-header p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .mikocin-info__inner-wrapper__right .mobile-header img {
+    max-height: 16px;
+    width: auto;
+  }
+  .mikocin-info__inner-wrapper__right h3 {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 165px;
+    padding-top: 25px;
+  }
+  .mikocin-info__inner-wrapper__right .price {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mikocin-info__inner-wrapper__right .price-old p {
+    color: #999999;
+  }
+  .mikocin-info__inner-wrapper__right .price-old img {
+    max-height: 35px;
+    padding-left: 12px;
+  }
+  .mikocin-info__inner-wrapper__right .price-new p {
+    color: #333333;
+  }
+  .mikocin-info__inner-wrapper__right .price-new img {
+    max-height: 40px;
+  }
+  .mikocin-info__inner-wrapper__right .price__item {
+    width: 30%;
+  }
+  .mikocin-info__inner-wrapper__right .price__item p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .mikocin-info__inner-wrapper__right input {
+    width: 65%;
+    padding: 25px 0;
+    padding-left: 45px;
+    font-size: 16px;
+  }
+  .mikocin-info__inner-wrapper__right .input img {
+    top: 24px;
+    left: 70px;
+    max-height: 20px;
+  }
+  .for-mobile {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .disabled-nav {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .disabled-nav h6 {
+    color: #e7e5e5;
+  }
+  .disabled-nav ul {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+  .navitem--main {
+    padding-right: 0;
+  }
+  .navitem--main img {
+    padding-left: 5%;
+  }
+  .navitem--usual {
+    padding-right: 0;
+  }
+  .navitem--usual h6 {
+    font-size: 10px;
+  }
+  .mikocin-info__inner-wrapper__left {
+    width: 90%;
+  }
+  .mikocin-info__inner-wrapper__left h2 {
+    font-size: 24px !important;
+  }
+  #mikocin-info {
+    height: 350px;
+  }
+}

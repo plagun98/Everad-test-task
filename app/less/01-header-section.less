@@ -262,3 +262,270 @@
         padding-top: 10px;
     }
 }
+
+@media screen and (max-width: 1350px){
+    #mikocin-info{
+        height: 600px;
+    }
+    .navitem{
+        &--main{
+            img{
+                max-height: 40px;
+            }
+            h6{
+                font-size: 14px;
+                line-height: 40px;
+            }
+        }
+        &--usual{
+            padding-right: 25px;
+            img{
+                max-height: 28px;
+            }
+            h6{
+                line-height: 14px;
+                font-size: 12px;
+                max-width: 140px;
+            }
+            .navitem2__text{
+                max-width: 100px;
+            }
+        }
+    }
+    .mikocin-info__inner-wrapper{
+        height: 600px;
+        h2{
+            font-size: 30px !important;
+        }
+        &__right{
+            max-width: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            .mobile-header{
+                padding-top: 25px;
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+                img{
+                    max-height: 16px;
+                    width: auto;
+                }
+            }
+            h3{
+                font-size: 14px;
+                line-height: 14px;
+                max-width: 165px;
+                padding-top: 25px;
+            }
+            .price{
+                padding-top: 3px;
+                padding-bottom: 3px;
+                display: flex;
+                justify-content: center;
+                &-old{
+                    p{
+                        color: #999999;
+                    }
+                    img{
+                        max-height: 30px;
+                        padding-left: 12px;
+                    }
+                }
+                &-new{
+                    p{
+                        color: #333333;
+                    }
+                    img{
+                        max-height: 35px;
+                    }
+                }
+                &__item{
+                    width: 30%;
+                    p{
+                        text-align: center;
+                        font-size: 10px;
+                    }
+                }
+            }
+            input{
+                width: 65%;
+                padding: 15px 0;
+                padding-left: 35px;
+                font-size: 12px;
+            }
+            .input{
+                img{
+                    top: 9px;
+                    left: 58px;
+                    max-height: 15px;
+                }
+            }
+            .order-button{
+                padding-top: 15px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                    cursor: pointer;
+                    max-width: 65%;
+                }
+            }
+            .packs-left{
+                padding-top: 10px;
+                max-width: 188px;
+                margin: 0 auto;
+                font-size: 14px;
+                text-align: center;
+                color: #333333;
+                span{
+                    color: #9dbd39;
+                }
+            }
+            .mobile__bottom{
+                display: flex;
+                justify-content: center;
+                padding-top: 18px;
+                p{
+                    padding-left: 12px;
+                    line-height: 20px;
+                    font-size: 10px;
+                    text-align: left;
+                    color: #666666;
+                }
+            }
+        }
+    }
+    .bottom-line{
+        font-size: 20px !important;
+    }
+    .activities-list__item{
+        p{
+            font-size: 12px;
+            padding-top: 12px;
+        }
+        img{
+            max-height: 40px;
+            width: auto;
+        }
+    }
+}
+@media screen and (max-width: 1200px){
+    #mikocin-info{
+        height: 450px;
+    }
+    .activities-list__item{
+        padding-top: 10px;
+    }
+    .mikocin-info__inner-wrapper{
+        max-width: 50%;
+        height: unset;
+        h2{
+            max-width: unset;
+        }
+        &__right{
+            width: 100%;
+            margin-top: 50px;
+            padding-bottom: 50px;
+            max-width: unset;
+            background-size: cover;
+            .mobile-header{
+                padding-top: 32px;
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+                img{
+                    max-height: 16px;
+                    width: auto;
+                }
+            }
+            h3{
+                font-size: 16px;
+                line-height: 18px;
+                max-width: 165px;
+                padding-top: 25px;
+            }
+            .price{
+                padding-top: 3px;
+                padding-bottom: 3px;
+                display: flex;
+                justify-content: center;
+                &-old{
+                    p{
+                        color: #999999;
+                    }
+                    img{
+                        max-height: 35px;
+                        padding-left: 12px;
+                    }
+                }
+                &-new{
+                    p{
+                        color: #333333;
+                    }
+                    img{
+                        max-height: 40px;
+                    }
+                }
+                &__item{
+                    width: 30%;
+                    p{
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                }
+            }
+            input{
+                width: 65%;
+                padding: 25px 0;
+                padding-left: 45px;
+                font-size: 16px;
+            }
+            .input{
+                img{
+                    top: 24px;
+                    left: 70px;
+                    max-height: 20px;
+                }
+            }
+        }
+    }
+    .for-mobile{
+        margin: 0 auto;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .disabled-nav{
+        padding: 0;
+        background: rgba(0,0,0,0.3);
+        h6{
+            color: rgb(231, 229, 229);
+        }
+        ul{
+            justify-content: space-around;
+        }
+    }
+    .navitem--main{
+        padding-right: 0;
+        img{
+            padding-left: 5%;
+        }
+    }
+    .navitem--usual{
+        padding-right: 0;
+        h6{
+            font-size: 10px;
+        }
+    }
+    .mikocin-info__inner-wrapper__left{
+        width: 90%;
+        h2{
+            font-size: 24px !important;
+        }
+    }
+    #mikocin-info{
+        height: 350px;
+    }
+}

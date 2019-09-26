@@ -123,3 +123,36 @@
     font-size: 16px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .why-effective__tabs {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .why-effective__tabs__item {
+    width: 30%;
+  }
+  .why-effective__tabs__item img {
+    max-width: 120px;
+  }
+  .why-effective__tabs__item .image-position2 {
+    top: -60px;
+  }
+  .why-effective__tabs__item p {
+    max-width: 90%;
+    font-size: 12px;
+  }
+  .why-effective__tabs__item h4 {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .why-effective__tabs {
+    display: block;
+  }
+  .why-effective__tabs__item {
+    margin: 0 auto;
+  }
+  .miniheader {
+    padding-bottom: 70px;
+  }
+}
