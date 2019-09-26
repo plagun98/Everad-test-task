@@ -105,7 +105,22 @@
     display: block;
   }
   .fungal-info__item {
-    width: 300px;
+    width: 95%;
+    max-width: 320px;
     margin: 0 auto;
+  }
+  .fungal-info__item img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .statistics {
+    padding: 20px 30px;
+  }
+  .statistics p {
+    font-size: 14px;
+  }
+  .statistics__pic {
+    width: 30%;
   }
 }

@@ -155,4 +155,46 @@
   .miniheader {
     padding-bottom: 70px;
   }
+  .for-background {
+    height: 50px;
+    background-repeat: repeat-x;
+  }
+}
+@media screen and (max-width: 910px) {
+  .why-effective__tabs__item {
+    padding-bottom: 0;
+  }
+  .why-effective__tabs__item h4 {
+    padding: 40px 0 5px;
+    font-size: 16px;
+  }
+  .why-effective__tabs__item p {
+    font-size: 10px;
+  }
+  .slogan-wrapper {
+    width: 90%;
+  }
+  .slogan {
+    padding: 20px 30px;
+  }
+  .bad-tab,
+  .good-tab {
+    background-image: unset;
+    height: unset;
+    width: 90%;
+    max-width: 600px;
+    padding-bottom: 40px;
+  }
+  .miniheader {
+    max-width: 90%;
+    margin: 0 auto;
+    line-height: 1.2;
+  }
+  .why-effective {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .why-effective__tabs {
+    padding-bottom: 0;
+  }
 }
