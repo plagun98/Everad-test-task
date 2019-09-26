@@ -1,0 +1,65 @@
+#how-to-use {
+  background: #eff8fa;
+  padding: 40px 0;
+}
+.tutorial {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 83px;
+}
+.tutorial__left {
+  padding-right: 45px;
+}
+.tutorial__right__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.tutorial__right__item .tutorial-first {
+  padding-top: 25px;
+}
+.tutorial__right__item__text {
+  padding-left: 37px;
+  padding-top: 45px;
+}
+.tutorial__right__item__text p {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  max-width: 220px;
+}
+.tutorial__right__item__text .green-hyphen {
+  height: 3px;
+  width: 20px;
+  background: #7bbf1c;
+  margin-bottom: 19px;
+}
+@media screen and (max-width: 1600px) {
+  .tutorial__left img {
+    max-height: 320px;
+  }
+  .tutorial__right__item__pic img {
+    max-height: 100px;
+  }
+  .tutorial__right__item__text {
+    padding-top: 35px;
+  }
+  .tutorial__right__item__text p {
+    font-size: 14px;
+  }
+  .tutorial__right__item__text .green-hyphen {
+    margin-bottom: 10px;
+  }
+}

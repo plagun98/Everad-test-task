@@ -1,0 +1,264 @@
+#mikocin-info{
+    background-image: url("../img/Background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+//navbar
+.disabled-nav{
+    padding: 18px 0;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.navitem{
+    display: flex;
+    &--main{
+        padding-right: 88px;
+        img{
+            padding-right: 17px;
+        }
+        h6{
+            font-family: Roboto;
+            font-size: 22px;
+            font-weight: 900;
+            line-height: 49px;
+            color: #383334;
+        }
+    }
+    &--usual{
+        margin: 8px 0;
+        padding-right: 39px;
+        h6{
+            max-width: 180px;
+            padding-left: 13px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: italic;
+            line-height: 20px;
+            color: #666666;
+        }
+        .navitem2__text{
+            max-width: 135px;
+        }
+    }
+}
+.navitem--last{
+    padding-right: 0;
+}
+//end navbar
+
+//first section main part
+.mikocin-info__inner-wrapper{
+    padding-top: 30px;
+    padding-bottom: 160px;
+    max-width: 662px;
+    width: 100%;
+    float: right;
+    display: flex;
+    h2{
+        max-width: 305px;
+        font-size: 44px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #383334;
+        .bottom-line{
+            font-size: 33px;
+        }
+    }
+    &__left{
+        padding-bottom: 30px;
+    }
+    &__right{
+        max-width: 340px;
+        width: 100%;
+        background-image: url("../img/arrowmob.png");
+        background-size: cover;
+        margin-right: -40px;
+        margin-top: -30px;
+        .mobile-header{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-top: 33px;
+            p{
+                padding-left: 8px;
+                font-size: 16px;
+                line-height: 1.13;
+                text-align: left;
+                color: #444444;
+            }
+        }
+        h3{
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 22px;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000000;
+            max-width: 165px;
+            margin: 0 auto;
+            padding-top: 35px;
+            span{
+                color: #ff6b00;
+            }
+        }
+        .price{
+            padding-top: 14px;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            &-old{
+                p{
+                    color: #999999;
+                }
+                img{
+                    padding-top: 14px;
+                }
+            }
+            &-new{
+                p{
+                    color: #333333;
+                }
+                img{
+                    padding-top: 7px;
+                }
+            }
+            &__item{
+                width: 30%;
+                p{
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 1.71;
+                }
+            }
+        }
+        input{
+            display: block;
+            width: 220px;
+            margin: 0 auto;
+            border: none;
+            background: #eef2f7;
+            padding: 25px 0;
+            padding-left: 55px;
+            border-radius: 30px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .input{
+            position: relative;
+            img{
+                position: absolute;
+                top: 22px;
+                left: 80px;
+            }
+        }
+        .order-button{
+            padding-top: 15px;
+            img{
+                display: block;
+                margin: 0 auto;
+                cursor: pointer;
+            }
+        }
+        .packs-left{
+            padding-top: 10px;
+            max-width: 188px;
+            margin: 0 auto;
+            font-size: 18px;
+            text-align: center;
+            color: #333333;
+            span{
+                color: #9dbd39;
+            }
+        }
+        .mobile__bottom{
+            display: flex;
+            justify-content: center;
+            padding-top: 18px;
+            p{
+                padding-left: 12px;
+                line-height: 20px;
+                font-size: 14px;
+                text-align: left;
+                color: #666666;
+            }
+        }
+    }
+}
+
+.red-underline{
+    border-bottom: 3px solid #ff6b00;
+}
+.green-underline{
+    border-bottom: 3px solid #a7c93d;
+}
+
+.activities-list{
+    padding-top: 4px;
+    &__item{
+        padding-top: 36px;
+        display: flex;
+        img{
+            width: 60px;
+            height: 60px;
+            margin-top: 6px;
+        }
+        p{
+            max-width: 310px;
+            padding-left: 18px;
+            font-size: 20px;
+            line-height: 1.2;
+            color: #444444;
+        }
+    }
+}
+
+@media screen and (max-width: 1600px){
+    #mikocin-info{
+        height: 740px;
+    }
+    .navitem{
+        &--main{
+            img{
+                max-height: 50px;
+            }
+            h6{
+                font-size: 18px;
+            }
+        }
+        &--usual{
+            img{
+                max-height: 36px;
+            }
+            h6{
+                line-height: 18px;
+                font-size: 14px;
+            }
+        }
+    }
+    .mikocin-info__inner-wrapper{
+        padding-bottom: 0;
+        height: 600px;
+        h2{
+            font-size: 38px !important;
+        }
+    }
+    .bottom-line{
+        font-size: 30px !important;
+    }
+    .activities-list__item p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+}

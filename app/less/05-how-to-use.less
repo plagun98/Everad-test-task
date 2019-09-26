@@ -1,0 +1,63 @@
+#how-to-use{
+    background: #eff8fa;
+    padding: 40px 0;
+}
+.tutorial{
+    display: flex;
+    justify-content: center;
+    padding-top: 83px;
+    &__left{
+        padding-right: 45px;
+    }
+    &__right{
+        &__item{
+            display: flex;
+            .tutorial-first{
+                padding-top: 25px;
+            }
+            &__text{
+                padding-left: 37px;
+                padding-top: 45px;
+                p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.44;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #000000;
+                    max-width: 220px;
+                }
+                .green-hyphen{
+                    height: 3px;
+                    width: 20px;
+                    background: #7bbf1c;
+                    margin-bottom: 19px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .tutorial{
+        &__left{
+            img{
+                max-height: 320px;
+            }
+        }
+        &__right__item__pic img{
+            max-height: 100px;
+        }
+        &__right__item__text{
+            padding-top: 35px;
+            p{
+                font-size: 14px;
+            }
+            .green-hyphen{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

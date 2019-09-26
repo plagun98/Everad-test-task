@@ -1,0 +1,84 @@
+.fungal-info{
+    display: flex;
+}
+.fungal-info__item{
+    width: 100%;
+    padding-bottom: 45px;
+    p{
+        font-size: 18px;
+        line-height: 1.56;
+        color: #444444;
+        max-width: 305px;
+    }
+    &__top{
+        display: flex;
+        padding-bottom: 20px;
+        h4{
+            font-size: 22px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.18;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000000;
+            max-width: 158px;
+            padding-left: 19px;
+            padding-top: 72px;
+        }
+    }
+}
+.last{
+    h4{
+        padding-top: 60px;
+    }
+}
+
+.statistics{
+    border: 3px solid #f4d3bb;
+    border-radius: 10px;
+    padding: 42px 90px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+    &__pic{
+        background: #fff;
+        z-index: 5;
+        position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        top: -18px;
+        width: 250px;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    p{
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: normal;
+        text-align: center;
+        color: #444444;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .fungal-info__item__top h4{
+        font-size: 18px;
+    }
+    .fungal-info__item p{
+        font-size: 14px;
+    }
+    .statistics p{
+        font-size: 16px;
+    }
+    .statistics__pic img{
+        max-height: 32px;
+    }
+}

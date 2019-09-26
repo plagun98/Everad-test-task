@@ -1,0 +1,117 @@
+#why-yes{
+    margin-top: -115px;
+}
+
+.why-effective{
+    max-width: 855px;
+    margin: 0 auto;
+}
+.miniheader{
+    padding-top: 24px;
+    font-size: 23px;
+    line-height: 2.09;
+    text-align: center;
+    color: #444444;
+}
+.why-effective__tabs{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    &__item{
+        margin-top: 90px;
+        width: 370px;
+        position: relative;
+        height: 310px;
+        img{
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .image-position1{
+            top: -45px;
+        }
+        .image-position2{
+            top: -75px;
+        }
+        .image-position3{
+            top: -40px;
+        }
+        h4{
+            font-size: 24px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.17;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000000;
+            padding-top: 75px;
+            padding-bottom: 16px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.44;
+            letter-spacing: normal;
+            text-align: center;
+            color: #444444;   
+            padding-bottom: 36px;   
+            max-width: 335px;   
+            margin: 0 auto; 
+        }
+    }
+}
+.bad-tab{
+    background: url("../img/redborder.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.good-tab{
+    background: url("../img/greenborder.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slogan{
+    padding: 31px 0;
+    border-radius: 10px;
+    background: #fff;
+    p{
+        font-size: 27px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+    }
+    &-wrapper{
+        width: 100%;
+        max-width: 865px;
+        margin: 0 auto;
+        padding: 4px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #f64d01,#62bd1f);
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .miniheader{
+        font-size: 16px;
+    }
+    .why-effective__tabs__item{
+        h4{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .slogan p{
+        font-size: 16px;
+    }
+}
